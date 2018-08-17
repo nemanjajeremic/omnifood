@@ -18,6 +18,17 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+.clearfix {zoom: 1;}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+
+
 /* ------------------------------------------------------------ */
 /* REUSABLE COMPONENTS */
 /* ____________________________________________________________ */
@@ -249,3 +260,124 @@ header {
     text-align: center;
     margin-bottom: 10px;
 }
+
+
+/* ---------------------------------------------
+------------------HOW IT WORKS SECTION -----------
+
+ ---------------------------------------------*/
+
+
+
+.steps-box:first-child {  
+    text-align: right;
+    padding-right: 3%;
+    margin-top: 30px;
+}
+
+.steps-box:last-child {
+    padding-left: 3%;
+    margin-top: 70px;
+}
+
+.appscreen {
+    width: 40%;
+}
+
+.works-step {
+    margin-bottom: 50px;
+}
+
+.works-step:last-of-type {
+    margin-bottom: 80px;
+}
+
+.works-step div {
+    color: #e67e22;
+    border: 2px solid #e67e22;
+    display: inline-block;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    font-size: 150%;
+    float:left;
+    padding: 5px;
+    margin-right: 25px;
+    
+}
+
+.btn-app img {
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.sections-steps {
+    background-color: #f4f4f4;
+}
+
+
+
+.cityimg {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    
+}
+
+.cities-box {
+    padding: 1%; 
+}
+
+.section-steps {
+    background-color: #f4f4f4;
+}
+
+
+.city-feature {
+    margin-bottom: 5px;
+}
+
+.icon-small {
+    display: inline-block;
+    width: 30px;
+    font-size: 120%;
+    text-align: center;
+    color: #cf6d17;
+    margin-right: 10px;
+
+
+/* secrets to align text and icons  */
+    line-height: 120%; 
+    vertical-align: middle;
+    margin-top: -5px;
+
+}
+
+.btn-app:link,
+.btn-app:visited {
+    border: 0px;
+    
+}
+
+/** GENERIC LINKS */
+
+a:link,
+a:visited {
+    color: #e67e22;
+    text-decoration: none;
+    border-bottom: 1px solid #e67e22;
+    padding-bottom: 1px;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+a:hover,
+a:active {
+    
+    color: #555;
+    border-bottom: 1px solid transparent;
+    
+}
+
+

@@ -1,4 +1,4 @@
-/* big tablet to 1200 - width smaller than 1140 pixel row */
+ /* big tablet to 1200 - width smaller than 1140 pixel row */
 @media only screen and (max-width: 1200x) {
     
     .hero-text-box {
@@ -48,7 +48,31 @@
     .col {
         width: 100%;
         margin: 0 0 4% 0;}
-    .main-nav {display: none;}
+    
+    
+  /*  .main-nav {display: none;} */
+    .mobile-nav-icon {display: inline-block;}
+    
+    .main-nav {
+        float: left;
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+    
+    .main-nav li {
+        display: block;
+        
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 5px 0;
+        font-size: 100%;
+    }
+    
+    
     .long-copy {
         width: 100%;
         margin-left: 0;
